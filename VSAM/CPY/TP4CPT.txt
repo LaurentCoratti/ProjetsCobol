@@ -1,0 +1,28 @@
+      *--------------------------------------------------------*
+      * DEFINITION DES ENREGISTREMENTS DU FICHIER COMPTE CPTSES *
+      * EN ENTREE-SORTIE DU PROGRAMME                          *
+      *--------------------------------------------------------*
+      *
+       01  WS-ENRG-F-CPT.
+           05  WS-CPT-CPTE                    PIC 9(10).
+           05  WS-CPT-CPTE-X REDEFINES WS-CPT-CPTE
+                                              PIC X(10).
+               88 WS-CPTSS-CPTSE-MAX          VALUE HIGH-VALUES.
+      *
+           05  WS-CPT-DCREA.
+               10  WS-CPT-DCREA-SSAA.
+                   15  WS-CPT-DCREA-SS        PIC 9(2).
+                   15  WS-CPT-DCREA-AA        PIC 9(2).
+               10  WS-CPTSS-DCREA-MM          PIC 9(2).
+               10  WS-CPTSS-DCREA-JJ          PIC 9(2).
+      *
+           05  WS-CPT-SOLDE                   PIC S9(8)V99.
+      *
+           05  WS-CPT-DMAJ.
+               10  WS-CPT-DMAJ-SSAA.
+                   15 WS-CPT-DMAJ-SS          PIC 9(2).
+                   15 WS-CPT-DMAJ-AA          PIC 9(2).
+               10  WS-CPT-DMAJ-MM             PIC 9(2).
+               10  WS-CPT-DMAJ-JJ             PIC 9(2).
+           05  FILLER                         PIC X(14)
+                                              VALUE SPACES.
