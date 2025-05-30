@@ -1,0 +1,28 @@
+      *--------------------------------------------------------*
+      * DEFINITION DES ENREGISTREMENTS DU FICHIER CPTE         *
+      *--------------------------------------------------------*
+      *
+       01  WS-ENRG-F-CPTE.
+           05  WS-CPT-CPTE                      PIC X(10).
+           05  WS-CPT-NOM                       PIC X(14).
+      *    05  WS-CPT-NOM                       PIC X(20).
+      *
+           05  WS-CPT-DCREA.
+               10  WS-CPT-DCREA-SSAA.
+                   15  WS-CPT-DCREA-SS          PIC 9(2).
+                   15  WS-CPT-DCREA-AA          PIC 9(2).
+               10  WS-CPT-DCREA-MM              PIC 9(2).
+               10  WS-CPT-DCREA-JJ              PIC 9(2).
+           05  WS-CPT-DCREA9 REDEFINES WS-CPT-DCREA PIC 9(8).
+      *
+           05  WS-CPT-SOLDE                     PIC S9(8)V99
+                                                     VALUE ZERO.
+      *    05  WS-CPT-SOLDE                     PIC S9(8)V99 COMP-3.
+      *
+           05  WS-CPT-DMAJ.
+               10  WS-CPT-DMAJ-SSAA.
+                   15 WS-CPT-DMAJ-SS            PIC 9(2).
+                   15 WS-CPT-DMAJ-AA            PIC 9(2).
+               10  WS-CPT-DMAJ-MM               PIC 9(2).
+               10  WS-CPT-DMAJ-JJ               PIC 9(2).
+           05  WS-CPT-DMAJ9 REDEFINES WS-CPT-DMAJ PIC 9(8).
