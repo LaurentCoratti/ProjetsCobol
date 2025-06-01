@@ -1,7 +1,18 @@
 # Projets Cobol
 
-- Affichage d'un compte client
+- Affichage d'un état des operations bancaires
+    Analyse d'un fichier de mouvements bancaire.
+    Affichage d'états de mouvements par comptes, anomalies et statistiques via Sysout.
 
-- Assortissemnt et édition
+- Assortiment et édition
+    Mise à jour d'un fichier compte client a partir d'un fichier de mouvements bancaires.
+    Assortiments de deux fichiers à lectures sequentielles.
+    Edition de fichiers d'états clients et anomalies.
+    Statistiques en Sysout.
 
-- Entrée Sysin et VSAM
+- Mise à jour d'un fichier compte client indexé.
+    Utilisation d'un fichier KSDS.
+    Edition de fichiers d'états clients et anomalies.
+    Statistiques en Sysout.
+
+
