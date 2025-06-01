@@ -33,7 +33,7 @@ Ce dépôt contient plusieurs projets réalisés en COBOL, centrés sur la gesti
 ## 🛠️ Technologies utilisées
 
 - **Langage :** COBOL
-- **Système :** z/OS / Mainframe (ou émulateur si précisé)
+- **Système :** z/OS / Mainframe
 - **Fichiers :** Séquentiels et VSAM (KSDS)
 - **Sortie :** SYSOUT (console)
 
