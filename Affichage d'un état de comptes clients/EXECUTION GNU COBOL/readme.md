@@ -1,4 +1,4 @@
-# ARI011B - Traitement d'opérations bancaires en COBOL
+# Affichage d'un état de comptes clients
 
 [![COBOL](https://img.shields.io/badge/Language-COBOL-blue)](https://gnucobol.sourceforge.io/)
 [![GnuCOBOL](https://img.shields.io/badge/Compiler-GnuCOBOL-green)](https://sourceforge.net/projects/gnucobol/)
