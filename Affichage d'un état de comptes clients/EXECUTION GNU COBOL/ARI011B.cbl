@@ -127,13 +127,16 @@
       *---------------------------------------------------------------*
 
        01  WS-LECPT.
-           05  FILLER       PIC X(28)  VALUE 'ERREUR POUR LE COMPTE :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'ERREUR POUR LE COMPTE :'.
            05  WS-ECPT      PIC 9(10).
        01  WS-LEMVT.
-           05  FILLER       PIC X(28)  VALUE 'CODE MOUVEMENT        :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'CODE MOUVEMENT        : '.
            05  WS-EMVT      PIC X.
        01  WS-LEMT.
-           05  FILLER       PIC X(28)  VALUE 'MONTANT               :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'MONTANT               : '.
            05  WS-EMT       PIC 9(8)V99.
 
       *---------------------------------------------------------------*
@@ -143,13 +146,16 @@
            05  FILLER       PIC X(28)  VALUE 'NUMERO DE COMPTE      :'.
            05  WS-OCPT      PIC 9(10).
        01  WS-LCB.
-           05  FILLER       PIC X(27)  VALUE 'CUMUL CARTE-BLEUE     :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'CUMUL CARTE-BLEUE     : '.
            05  WS-OCB       PIC 9(9)V99.
        01  WS-LRDAB.
-           05  FILLER       PIC X(27)  VALUE 'CUMUL RETRAIT DAB     :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'CUMUL RETRAIT DAB     : '.
            05  WS-ORDAB     PIC 9(9)V99.
        01  WS-LDGUI.
-           05  FILLER       PIC X(27)  VALUE 'CUMUL DEPOT GUICHET   :'.
+           05  FILLER       PIC X(28)  
+                            VALUE 'CUMUL DEPOT GUICHET   : '.
            05  WS-ODGUI     PIC 9(9)V99.
        01  WS-LBAL.
            05  FILLER       PIC X(28)  VALUE 'BALANCE DES OPERATIONS:'.
