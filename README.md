@@ -50,6 +50,7 @@ Ce dépôt contient plusieurs projets réalisés en COBOL, centrés sur la gesti
 ## 🚀 À venir
 
 - Intégration de jeux de tests.
+- Execution sous GnuCobol avec batches d'executions.
 - Ajout de captures d’écrans ou d’exemples de sorties SYSOUT.
 - Documentation technique détaillée par programme.
 
